@@ -1,0 +1,22 @@
+:root {
+  --primary: #0fb9b1;
+  --primary-dark: #0a8f89;
+  --accent: #00d2d3;
+  --bg: #f5f7fa;
+  --card: #ffffff;
+  --text: #1f2933;
+  --muted: #6b7280;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  width: 92%;
+  margin: auto;
+  max-width: 1200px;
+}

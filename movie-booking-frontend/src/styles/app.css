@@ -1,0 +1,13 @@
+body{
+  font-family:Inter;
+  background:#f5f7fa;
+}
+.navbar{
+  background:white;
+  padding:15px;
+}
+.movie-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,200px);
+  gap:20px;
+}
